@@ -285,6 +285,10 @@ Evaluation blocks are identified by both household and start date, for example `
 3. Complete preparation before starting independent learning or controller tasks. Calibration uses training records only.
 4. Keep registered input files fixed while an experiment runs; use another experiment directory after changing model settings.
 
+
 ## Contact
 
-Repository and issue tracker: [HEMS-RL](https://github.com/lys-hh/HEMS-RL).
+For questions or suggestions, please contact through:
+
+- Submit an Issue
+- Email the project maintainer
