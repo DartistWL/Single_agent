@@ -1,0 +1,51 @@
+{
+  "training": {
+    "hidden_dim": 128,
+    "state_stack_len": 8,
+    "epochs": 6,
+    "gamma": 0.995,
+    "lmbda": 0.95,
+    "eps": 0.2,
+    "ent_coef": 0.0,
+    "max_grad_norm": 2,
+    "source_phase_one_blocks": 6000,
+    "source_total_blocks": 7536
+  },
+  "action_order": [
+    "ev_power",
+    "wash_machine_schedule",
+    "Air_conditioner_set_temp",
+    "Air_conditioner_set_temp2",
+    "ewh_set_temp",
+    "battery_power"
+  ],
+  "policy": {
+    "prefix_rank": 16,
+    "deduplicated_prior": "class_size",
+    "actor_lr": 0.0001,
+    "critic_lr": 0.0003,
+    "minibatch_size": 128,
+    "target_kl": 0.02,
+    "initialize_actor_uniform": true
+  },
+  "offpolicy_config": {
+    "algorithms": [
+      "rainbow_branch"
+    ],
+    "hidden_dim": 128,
+    "gamma": 0.995,
+    "batch_size": 128,
+    "replay_capacity": 16384,
+    "replay_storage": "float16",
+    "state_normalization": "fixed train-split physical-baseline statistics and declared ranges, saved in manifest.json",
+    "reward_scale": 10.0,
+    "update_every": 4,
+    "rainbow_atoms": 101,
+    "rainbow_vmin": -100.0,
+    "rainbow_vmax": 10.0,
+    "rainbow_n_step": 3,
+    "rainbow_target_update_interval": 500,
+    "action_scope": "Rainbow uses independent discrete branches",
+    "rainbow_scope": "branch-factorized C51 Double Dueling PER 3-step NoisyNet, not exhaustive joint-action Rainbow"
+  }
+}

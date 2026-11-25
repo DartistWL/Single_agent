@@ -1,0 +1,26 @@
+{
+  "operation": "layout_and_name_only",
+  "old_to_new_algorithm_names": {
+    "deduplicated": "ER_PPO",
+    "independent": "IH_PPO",
+    "independent_class": "IC_PPO",
+    "execution_class_unprotected": "AR_Class_PPO",
+    "no_state_norm": "No_SN",
+    "no_adv_norm": "No_AN",
+    "no_sharing": "No_Share",
+    "no_mask": "No_Mask",
+    "ref_ppo_base": "Reference_PPO",
+    "crossq": "CrossQ",
+    "droq": "DroQ",
+    "rainbow_branch": "Branching_Rainbow",
+    "physical": "SRB",
+    "ref_price_rbc": "TOU_RBC",
+    "rbc": "CI_RBC",
+    "mpc_basic": "MPC"
+  },
+  "original_registry_ids": {
+    "household_multihome_3000": "a8b5758b50172a7fb5e5119c41e0765058839dfb95fc550ee8d26a7300260d7d",
+    "household_multihome_3seeds": "02759d3347cf5f4d1af0d2910a2f86fddd53839bba1f9fe6bbf1fddc7956dfa8"
+  },
+  "original_files_preserved_outside_project": true
+}

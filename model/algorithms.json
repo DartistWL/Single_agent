@@ -1,0 +1,114 @@
+[
+  {
+    "name": "ER_PPO",
+    "paper_name": "ER-PPO",
+    "legacy_name": "deduplicated",
+    "kind": "ppo",
+    "module": "model.paper.ER_PPO"
+  },
+  {
+    "name": "IH_PPO",
+    "paper_name": "IH-PPO",
+    "legacy_name": "independent",
+    "kind": "ppo",
+    "module": "model.paper.IH_PPO"
+  },
+  {
+    "name": "IC_PPO",
+    "paper_name": "IC-PPO",
+    "legacy_name": "independent_class",
+    "kind": "ppo",
+    "module": "model.paper.IC_PPO"
+  },
+  {
+    "name": "AR_Class_PPO",
+    "paper_name": "AR-Class PPO",
+    "legacy_name": "execution_class_unprotected",
+    "kind": "ppo",
+    "module": "model.paper.AR_Class_PPO"
+  },
+  {
+    "name": "No_SN",
+    "paper_name": "No-SN",
+    "legacy_name": "no_state_norm",
+    "kind": "ppo",
+    "module": "model.ablations.No_SN"
+  },
+  {
+    "name": "No_AN",
+    "paper_name": "No-AN",
+    "legacy_name": "no_adv_norm",
+    "kind": "ppo",
+    "module": "model.ablations.No_AN"
+  },
+  {
+    "name": "No_Share",
+    "paper_name": "No-Share",
+    "legacy_name": "no_sharing",
+    "kind": "ppo",
+    "module": "model.ablations.No_Share"
+  },
+  {
+    "name": "No_Mask",
+    "paper_name": "No-Mask",
+    "legacy_name": "no_mask",
+    "kind": "ppo",
+    "module": "model.ablations.No_Mask"
+  },
+  {
+    "name": "Reference_PPO",
+    "paper_name": "Reference PPO",
+    "legacy_name": "ref_ppo_base",
+    "kind": "reference",
+    "module": "model.paper.Reference_PPO"
+  },
+  {
+    "name": "CrossQ",
+    "paper_name": "CrossQ",
+    "legacy_name": "crossq",
+    "kind": "continuous",
+    "module": "model.paper.CrossQ"
+  },
+  {
+    "name": "DroQ",
+    "paper_name": "DroQ",
+    "legacy_name": "droq",
+    "kind": "continuous",
+    "module": "model.paper.DroQ"
+  },
+  {
+    "name": "Branching_Rainbow",
+    "paper_name": "Branching Rainbow",
+    "legacy_name": "rainbow_branch",
+    "kind": "distributional",
+    "module": "model.paper.Branching_Rainbow"
+  },
+  {
+    "name": "SRB",
+    "paper_name": "SRB",
+    "legacy_name": "physical",
+    "kind": "controller",
+    "module": "model.paper.SRB"
+  },
+  {
+    "name": "TOU_RBC",
+    "paper_name": "TOU-RBC",
+    "legacy_name": "ref_price_rbc",
+    "kind": "controller",
+    "module": "model.paper.TOU_RBC"
+  },
+  {
+    "name": "CI_RBC",
+    "paper_name": "CI-RBC",
+    "legacy_name": "rbc",
+    "kind": "controller",
+    "module": "model.paper.CI_RBC"
+  },
+  {
+    "name": "MPC",
+    "paper_name": "MPC",
+    "legacy_name": "mpc_basic",
+    "kind": "controller",
+    "module": "model.paper.MPC"
+  }
+]
